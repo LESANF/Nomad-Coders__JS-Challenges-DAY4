@@ -3,6 +3,10 @@
 // <⚠️ /DONT DELETE THIS ⚠️>
 
 const body = document.querySelector("body");
+const h2 = document.querySelector("h2");
+
+h2.innerText = "Hello!";
+h2.style.color = "white";
 body.style.backgroundColor = "#9b59b6";
 
 function handleResize() {
